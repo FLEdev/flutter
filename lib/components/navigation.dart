@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic/main.dart';
+import '/pages/home.dart';
+import '/pages/pageOne.dart';
 
 class NavigationDrawer extends StatelessWidget {
   const NavigationDrawer({Key? key}): super(key: key);
@@ -38,27 +39,34 @@ class NavigationDrawer extends StatelessWidget {
               leading: const Icon(Icons.home_outlined),
               title: const Text('Home'),
               onTap: () {
-                Navigator.pop(context);
+                //Navigator.pop(context);
                 Navigator.of(context).pushReplacement(
                   MaterialPageRoute(
                     builder: (context) => const HomeApp(),
-                  ),
+                  )
                 );
               },
             ),
             ListTile(
               leading: const Icon(Icons.ads_click_sharp),
-              title: const Text('Page 1'),
-              onTap: () => { print('Page 1')},
+              title: const Text('Page One'),
+              onTap: () {
+                //Navigator.pop(context);
+                Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(
+                      builder: (context) => const PageOneApp(),
+                    )
+                );
+              },
             ),
             ListTile(
               leading: const Icon(Icons.ads_click_sharp),
-              title: const Text('Page 2'),
+              title: const Text('Page Two (NA)'),
               onTap: () => { print('Page 2')},
             ),
             ListTile(
               leading: const Icon(Icons.ads_click_sharp),
-              title: const Text('Page 3'),
+              title: const Text('Page Three (NA)'),
               onTap: () => { print('Page 3')},
             ),
           ]

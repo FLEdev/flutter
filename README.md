@@ -1,6 +1,18 @@
-# flutter_basic
+# Boilerplate Flutter Project
 
-A new Flutter project.
+![Home](https://github.com/FLEdev/flutter/tree/main/assets/images/Home.png "Home")
+![PageOne](https://github.com/FLEdev/flutter/tree/main/assets/images/PageOne.png "PageOne")
+
+
+Start here with you Flutter Multiplatform App
+
+## Main Features:
+- Stateful Widget
+- Drawer
+- Action Buttons
+- Navigation
+- Alignments
+- Background Image - Network
 
 ## Getting Started
 

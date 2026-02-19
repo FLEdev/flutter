@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart' hide NavigationDrawer;
 import '../components/navigation.dart';
-class HomeApp extends StatefulWidget {
-  const HomeApp({super.key});
+class PageOneApp extends StatefulWidget {
+  const PageOneApp({super.key});
 
-  final String title = 'Flutter Demo Home Page';
+  final String title = 'Page 1';
 
   @override
-  State<HomeApp> createState() => _HomeAppState();
+  State<PageOneApp> createState() => _PageOneAppState();
 }
 
-class _HomeAppState extends State<HomeApp> {
+class _PageOneAppState extends State<PageOneApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,10 +18,6 @@ class _HomeAppState extends State<HomeApp> {
       appBar: AppBar(
         backgroundColor: const Color(0xff2596be),
         leadingWidth: 40,
-        /*leading: IconButton(
-          onPressed: () => {print('pressed menu button')},
-          icon: const Icon(Icons.menu),
-        ),*/
         title: const Text('Flutter Boilerplate project'),
         centerTitle: true,
       ),
@@ -39,14 +35,10 @@ class _HomeAppState extends State<HomeApp> {
           child: Container(
             padding: EdgeInsets.all(20.0),
             color: Colors.orange,
-            alignment: Alignment.topCenter,
-            child: Align(
-              alignment: Alignment.center,
-              child: Text(
-                '${DateTime.now().day}.${DateTime.now().month}.${DateTime.now().year} - Nothing is impossible.',
-                style: const TextStyle(color: Colors.white, fontSize: 40),
-              ),
-            )
+            child: Text(
+              '${DateTime.now().day}.${DateTime.now().month}.${DateTime.now().year} - You are on Page1.',
+              style: const TextStyle(color: Colors.white, fontSize: 40),
+            ),
           ),
         ),
       ),
