@@ -1,7 +1,10 @@
 # Boilerplate Flutter Project
 
-![Home](https://github.com/FLEdev/flutter/blob/main/assets/images/Home.png "Home")
-![PageOne](https://github.com/FLEdev/flutter/blob/main/assets/images/PageOne.png "PageOne")
+
+
+![Picture](https://github.com/FLEdev/flutter/blob/main/assets/images/Home.png ){ width="800" height="600" style="display: block; margin: 0 auto" }
+![Picture](https://github.com/FLEdev/flutter/blob/main/assets/images/PageOne.png ){ width="800" height="600" style="display: block; margin: 0 auto" }
+
 
 
 Start here with you Flutter Multiplatform App
