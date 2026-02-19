@@ -1,9 +1,9 @@
 # Boilerplate Flutter Project
 
 
-<p style="text-align: center;">
-  <img src="https://github.com/FLEdev/flutter/blob/main/assets/images/Home.png?raw=true" alt="Home"/>
-  <img src="https://github.com/FLEdev/flutter/blob/main/assets/images/PageOne.png?raw=true" alt="Page One"/>
+<p align="center"s>
+  <img width="300px" src="https://github.com/FLEdev/flutter/blob/main/assets/images/Home.png?raw=true" alt="Home"/>
+  <img width="300px" src="https://github.com/FLEdev/flutter/blob/main/assets/images/PageOne.png?raw=true" alt="Page One"/>
 </p>
 
 
